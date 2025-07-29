@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Modern Frame - Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <nav class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://virtualtour.example.com" target="_blank" rel="noopener">Virtual Tour</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Gallery</h1>
+        <section class="gallery-grid">
+            <div class="artwork">
+                <img src="images/artwork1.jpg" alt="Artwork 1">
+                <h3>Blue Silence</h3>
+                <p>A tranquil study in shades of blue.</p>
+            </div>
+            <div class="artwork">
+                <img src="images/artwork2.jpg" alt="Artwork 2">
+                <h3>Crimson Flow</h3>
+                <p>Capturing the energy of red in motion.</p>
+            </div>
+            <div class="artwork">
+                <img src="images/artwork3.jpg" alt="Artwork 3">
+                <h3>Forest Whispers</h3>
+                <p>An exploration of textured landscape.</p>
+            </div>
+            <div class="artwork">
+                <img src="images/artwork4.jpg" alt="Artwork 4">
+                <h3>Urban Dreams</h3>
+                <p>Modernist interpretation of city life.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 The Modern Frame Gallery
+    </footer>
+</body>
+</html>
